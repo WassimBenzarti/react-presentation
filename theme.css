@@ -1,0 +1,24 @@
+/* @theme reactjs */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
+@import 'default';
+
+h1{
+	color: black;
+}
+h1,h2,h3, p, header, footer, section{
+	color: #444;
+	font-family: 'Inter', sans-serif;
+}
+
+section {
+  	background: #EEE;
+	font-weight: 500;
+}
+
+my-code:before{
+	display:block;
+	padding:10px 25px;
+	color:white;
+	content:attr(data-name);
+	background: #444;
+}
